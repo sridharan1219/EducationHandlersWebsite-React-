@@ -1,0 +1,50 @@
+.fieldset {
+  border-radius: 20%;
+}
+.about-page {
+  background-color: rgb(245, 245, 245);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.25rem;
+
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.but {
+  height: 40px;
+  width: 190px;
+  text-size-adjust: 30px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.wel {
+  float: right;
+
+  width: 800px;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.react {
+  background-color: blueviolet;
+
+  margin-top: 20px;
+  height: 200px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .category-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-filters button {
+    margin-right: 10px;
+  }
+  
+  .courses-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    transform: translate(15%, 0);
+    gap: 50px;
+  }
+  

@@ -1,0 +1,13 @@
+.Insimg {
+  margin-top: 70px;
+  float: left;
+}
+.text-contionar {
+  text-align: left;
+  margin-left: 0px;
+  color: black;
+}
+
+.Ins-body {
+  transform: translate(0, -30%);
+}

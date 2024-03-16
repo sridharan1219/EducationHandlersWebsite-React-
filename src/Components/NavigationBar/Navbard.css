@@ -1,0 +1,105 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35aeff;
+  color: white;
+  padding: 10px 10px;
+  height: 70px;
+  font-size: 1.5rem;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-links li {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right .profile-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu ul li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-icon:hover .dropdown-menu {
+  display: flex;
+}
+/*
+    Newly added
+  .dropdown-menu ul {
+    display: flex;
+    flex-direction: row; /* Display items horizontally 
+  }
+  
+  .dropdown-menu ul li {
+    margin-right: 10px; /* Add margin between menu items 
+  }
+  
+  .dropdown-menu ul li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item 
+  } */

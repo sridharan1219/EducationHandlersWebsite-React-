@@ -1,0 +1,85 @@
+.bd {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: url('../Images/back.jpeg');
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.signin-form:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+
+.bu {
+    background-color: #13a1c8;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+.additional-links {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+.ava{
+    transform: translate(380%, 0);
+    height: 60px;
+}

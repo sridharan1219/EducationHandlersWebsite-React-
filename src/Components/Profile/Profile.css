@@ -1,0 +1,46 @@
+.profile-container {
+  text-align: center;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+  background-color: floralwhite;
+}
+
+.totalBody-white {
+  background-image: url(../Images/back.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.totalBody-black {
+  background-color: black;
+  height: 100%;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.table {
+  width: fit-content;
+  margin: auto;
+}
+
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td:first-child {
+  width: 150px;
+}
+
+.table td label {
+  font-weight: bold;
+}

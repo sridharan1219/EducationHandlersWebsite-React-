@@ -1,0 +1,12 @@
+.card:hover{
+    transform: scale(1.02);
+  }
+  .blogBody-white{
+    background-image: url(../Images/back.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .blogBody-black{
+    background-color: black;
+    height: 100%;
+  }

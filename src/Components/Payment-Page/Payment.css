@@ -1,0 +1,60 @@
+.payment-card {
+  display: flex;
+}
+
+.card-details {
+  width: fit-content;
+  height: 300px;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.amount-box {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 50px;
+  border-radius: 20px;
+  text-align: center;
+  transform: translate(10%, 0);
+}
+
+#outlined-basic {
+  width: 300px;
+}
+
+.amount-box button,
+.upi-summary button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  
+}
+
+.upi-payment {
+  display: flex;
+}
+
+.upi-details {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 50px;
+  border-radius: 20px;
+  transform: translate(20%, 0);
+}
+
+.upi-summary {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 50px;
+  border-radius: 20px;
+  text-align: center;
+  transform: translate(80%, 0);
+}
